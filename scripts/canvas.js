@@ -5,7 +5,7 @@ async function onPageLoad() {
 
     let objects = [];
 
-    MeshManager.load(gl, 'mesh/paper_ball.obj', 'mesh/paper_crumpled_texture.jpg')
+    MeshManager.load(gl, 'mesh/torus.obj', 'mesh/paper_crumpled_texture.jpg')
         .then(function (mesh) {
             objects.push(mesh)
         });
